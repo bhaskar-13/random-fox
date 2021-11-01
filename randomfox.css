@@ -1,0 +1,112 @@
+
+body{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,117,121,1) 28%, rgba(0,212,255,1) 100%);
+
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2rem;
+}
+
+.image{
+    width: 50vw;
+    height:50vh;
+    border-radius: 2rem;
+
+  
+}
+
+.header{
+    font-style: italic !important;
+    margin-top: 2rem;
+
+}
+
+.btn:hover{
+   color: darkgrey !important;
+   
+}
+
+p{
+ margin-top:53vh;
+ margin-bottom:1rem;
+ color: oldlace;
+ font-style: italic !important;
+}
+
+.image1{
+    width: 50vw;
+    height:50vh;
+    border-radius: 2rem;
+   
+}
+
+@media (max-width:836px){
+    image{
+        width:30rem;
+        object-fit: cover;
+        margin:10px;
+    }
+
+    .image1{
+        width:30rem;
+        object-fit: cover;
+        margin: 10px;
+    }
+
+}
+
+@media (max-width:500px){
+    image{
+        width:20rem;
+        object-fit: cover;
+        margin: 10px;
+    }
+    .image1{
+        width:20rem;
+        object-fit: cover;
+        margin: 10px;
+    }
+}
+
+@media (max-width:345px){
+    image{
+        width:15rem;
+        object-fit: cover;
+        margin: 10px;
+    }
+    .image1{
+        width:15rem;
+        object-fit: cover;
+        margin: 10px;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:260px){
+    image{
+        width:10rem;
+        object-fit: cover;
+        margin: 10px;
+    }
+    .image1{
+        width:10rem;
+        object-fit: cover;
+        margin: 10px;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+}
+
+
+
